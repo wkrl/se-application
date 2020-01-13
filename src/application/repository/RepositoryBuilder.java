@@ -114,10 +114,10 @@ public class RepositoryBuilder implements BuilderIntf {
 
 		Customer c = new Customer( "Dr. Margarethe Boese" )
 			.addContact( "drmb@yahoo.de" )
-			.addContact( "home: 030 8266-5204" )
+			.addContact( "home: 030 2934‐8896" )
 			.addContact( "work: 030 4504-2528" )
 			.addContact( "cell: +49 170 82568462" )
-			.setAddress( "Lindenweg 86, 12167 Berlin-Steglitz" )
+			.setAddress( "Kastanienallee 12, 10435 Berlin-Wilmersdorf" )
 			.setStatus( Customer.Status.SUSP )
 			.addNote( "Zahlt Rechnung verspaetet." )
 			.addNote( "Beschwert sich ueber Mitarbeiter." )
@@ -126,12 +126,9 @@ public class RepositoryBuilder implements BuilderIntf {
 		list.add( c );
 
 		list.add( new Customer( "Matteo Schwarz" ).setAddress( "Grossweg 4, 79805 Aschaffenburg" ).addContact( "matteo.schwarz@gmail.com" ) );
-		list.add( new Customer( "Paul Neumann" ).setAddress( "Engelbert-Noack-Gasse 3, 16665 Parsberg" ).addContact( "paul.neumann@gmail.com" ) );
-		list.add( new Customer( "Tom Wolf" ).setAddress( "Starkplatz 8, 79663 Wolfratshausen" ).addContact( "tom.wolf@yahoo.de" ) );
 		list.add( new Customer( "Mila Sauer" ).setAddress( "Nicole-Weidner-Platz 4, 15616 Gelnhausen" ).addContact( "mila.sauer@yahoo.de" ) );
 		list.add( new Customer( "Clara Richter" ).setAddress( "Ehlersplatz 59, 59965 Einbeck" ).addContact( "clara.richter@yahoo.de" ) );
 		list.add( new Customer( "Henri Vogt" ).setAddress( "Kirschallee 21, 82493 Helmstedt" ).addContact( "henri.vogt@gmail.com" ) );
-		list.add( new Customer( "Emily Beck" ).setAddress( "Silvio-Brand-Gasse 4/6, 54260 Hagenow" ).addContact( "emily.beck@gmail.com" ) );
 		list.add( new Customer( "Tom Winter" ).setAddress( "Luzia-Geisler-Gasse 74, 33489 Soltau-Fallingbostel" ).addContact( "tom.winter@gmail.com" ) );
 		list.add( new Customer( "Emilia Hartmann" ).setAddress( "Sanderring 5/2, 28072 Donaueschingen" ).addContact( "emilia.hartmann@gmx.de" ) );
 /*

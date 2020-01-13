@@ -1,4 +1,4 @@
-package application.modelgen.Model;
+package application.modelgen.Model; 
 
 /**
  * 
