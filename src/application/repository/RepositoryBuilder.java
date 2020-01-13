@@ -202,7 +202,11 @@ public class RepositoryBuilder implements BuilderIntf {
 				.addContact( "+49170482395" )
 				.setStatus( Customer.Status.SUSP );
 		});
-
+		
+		customerRepository.save(new Customer("Anna Maria Kaufmann")
+				.setAddress("Heinemannring 251, 45535 Starnberg")
+				.addContact("cell: +49 154 82537462")
+				.addContact("email: amkaufmann@gmx.de")); 
 	}
 
 

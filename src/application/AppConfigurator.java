@@ -153,7 +153,9 @@ public class AppConfigurator implements ComponentIntf {
 			KV( Table.COLUMNS, new Object[][][] {
 				//		match-field:,	label:,		css-id,		width:,				more:...
 				COLUMN( "[Ii]d",		"Kund.-Id",		"id",		"min: 70; max: 70;", KV( Table.Column.COL_EDITABLE, false ) ),
-				COLUMN( "[Nn]ame",		"Name",		"name",		"min: 50; max: 120;" ),
+//				COLUMN( "[Nn]ame",		"Name",		"name",		"min: 50; max: 120;" ),
+				COLUMN( "[Nn]ame", "Name", "name", "min: 50; max: 70;" ),
+				COLUMN( "[Ff]irst[Nn]ame", "Vorname", "name", "min: 50; max: 100;" ),
 				COLUMN( "[Aa]ddress",	"Adresse",	"address",	"min: 240; max: 300;" ),
 				COLUMN( "[Ss]tatus",	"Status",	"status",	"min: 56; max: 60;" ),
 				COLUMN( "[Cc]ontacts",	"Kontakte","customer-contacts", "min: 156; max: 160;",

@@ -25,6 +25,7 @@ public class Customer implements Entity {
 	private final String id;
 
 	private String name;
+	private String firstname = " - ";
 
 	private String address;
 
@@ -54,7 +55,8 @@ public class Customer implements Entity {
 	 */
 	private Customer( final String id, final String name ) {
 		this.id = id == null? CustomerIdGenerator.nextId() : id;
-		setName( name );
+		setName( name.substring(0, name.lastIndexOf(" ") ) ); 
+		setFirstname( name.substring(name.lastIndexOf(" ") + 1 ) ); 
 		this.address = "";
 		this.contacts = new ArrayList<String>();
 		this.notes = new ArrayList<Note>();
@@ -83,7 +85,16 @@ public class Customer implements Entity {
 	public String getName() {
 		return name;
 	}
-
+	
+	/**
+	 * Return Customer firstname.
+	 * 
+	 * @return Customer firstname.
+	 */
+	public String getFirstname() {
+		return firstname; 
+	}
+ 
 	/**
 	 * Set Customer name.
 	 * 
@@ -93,6 +104,17 @@ public class Customer implements Entity {
 	public Customer setName( final String name ) {
 		this.name = name;
 		// this.name = prettyName( name );
+		return this;
+	}
+	
+	/**
+	 * Set Customer firstname.
+	 * 
+	 * @param name new Customer firstname.
+	 * @return self reference.
+	 */
+	public Customer setFirstname( final String firstname ) {
+		this.firstname = firstname;
 		return this;
 	}
 
