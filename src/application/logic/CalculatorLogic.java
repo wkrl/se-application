@@ -89,11 +89,15 @@ public class CalculatorLogic implements CalculatorComp.LogicIntf {
 			case K_EQ:	appendBuffer( "=" ); break;
 
 			case K_VAT:
-				writeSideArea(
-					"Brutto:  1,000.00\n" +
-					VAT_RATE + "% MwSt:  159.66\n" +
-					"Netto:  840.34"
-				);
+				if (dsb.substring(0).matches("[0-9.]+")) {
+					Double input = (double) Double.parseDouble(dsb.substring(0)); 
+					Double output = (double) ((double) input * VAT_RATE / 100); 
+					writeSideArea(
+						"Brutto: " + input + "\n" +
+						VAT_RATE + "% MwSt: " + output + " \n" +
+						"Netto: " + (input - output) 
+					);
+				}
 				break;
 
 			case K_DOT:	appendBuffer( "." );
