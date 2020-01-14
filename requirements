@@ -1,0 +1,30 @@
+Akteure: USER, ADMIN, PROPERTY MANAGER, RECEPTIONIST
+
+US#010.01: Als USER möchte ich Räumlichkeiten mieten. 
+US#010.02: Als USER möchte ich mir ein Angebot an Räumlichkeiten online anschauen. 
+US#010.03: Als USER möchte ich eine befristete Räumlichkeit online buchen. 
+US#010.04: Als USER möchte ich diese bis zwei Wochen vor Einzug online stornieren. 
+US#010.05: Als USER wird mir meine Räumlichkeit durch den PROPERTY MANAGER zugänglich gemacht.  
+US#010.06: Als USER möchte ich bei dem RECEPTIONIST im Gebäude Hilfe anfordern, falls ich sie brauche.   
+US#010.07: Als USER kann ich mich online registrieren, um eine Räumlichkeit zu buchen. Dabei gebe ich meine Zahlungsinformation, sowie Kontaktdaten und Passwort an. 
+US#010.08: Als USER bekomme ich eine Rechnung zugesendet, wenn ich einen Raum gebucht habe. 
+US#010.09: Als USER habe ich die Möglichkeit mein Passwort online zu ändern. 
+
+US#020.01: Als ADMIN habe ich einen Überblick über alle Kunden und Mitarbeiter, sowie über den Stand der Räumlichkeiten in einer Datenbank. 
+US#020.02: Als ADMIN kann ich diese Datenbank bearbeiten.  
+US#020.03: Als ADMIN kann ich das Angebot auf der Website ändern. 
+US#020.04: Als ADMIN stelle ich sicher, dass alle Akteure den gleichen Stand des Produkts haben. 
+US#020.05: Als ADMIN kümmere ich mich um die Sicherheit der Website und Datenbank.
+
+US#030.01: Als PROPERTY MANAGER zeige ich USER die von ihnen zugänglichen Räumlichkeiten. 
+US#030.02: Als PROPERTY MANAGER stelle ich sicher, den USER über die Räumlichkeiten zu belehren, um Konflikte zu vermeiden. 
+US#030.03: Als PROPERTY MANAGER stelle ich sicher, dass sich das Inventar in einem guten Zustand befindet und funktioniert, indem ich im System nach vermerkten Konflikten schaue.  
+US#030.04: Als PROPERTY MANAGER stelle ich sicher, dass sich das Gebäude in einem guten Zustand befindet.  
+US#030.05: Als PROPERTY MANAGER löse ich Konflikte, wenn ein USER sich über Räumlichkeiten beschwert. 
+
+US#040.01: Als RECEPTIONIST checke ich den USER ein. 
+US#040.02: Als RECEPTIONIST stelle ich sicher, dass keine unerwarteten Besucher die Räumlichkeiten betreten. 
+US#040.03: Als RECEPTIONIST reagiere ich auf Fragen, die von dem USER kommen. 
+US#040.04: Als RECEPTIONIST halte ich absprache mit dem PROPERTY MANAGER, falls sich ein Kunde über nicht funktionierendes Inventar beschwert und vermerke dies. 
+US#040.05: Als RECEPTIONIST stelle ich sicher, dass die öffentlichen Bereiche im Gebäude sauber sind. 
+

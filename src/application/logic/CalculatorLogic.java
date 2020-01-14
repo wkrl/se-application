@@ -86,7 +86,10 @@ public class CalculatorLogic implements CalculatorComp.LogicIntf {
 			case K_MUL:	appendBuffer( "*" ); break;
 			case K_PLUS:appendBuffer( "+" ); break;
 			case K_MIN:	appendBuffer( "-" ); break;
-			case K_EQ:	appendBuffer( "=" ); break;
+			case K_EQ:
+				// TODO 
+				appendBuffer( "=" ); 
+				break;
 
 			case K_VAT:
 				if (dsb.substring(0).matches("[0-9.]+")) {
