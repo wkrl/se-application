@@ -1,0 +1,38 @@
+Use Case 1: 
+Primary Actor: User 
+Goal in Context: User bucht eine Räumlichkeit mittels Website. Bezahlung ist nicht mit eingebunden. 
+Scope: Business, Bezahlmechanismus
+Level: Summary 
+Stakeholders and Interests: 
+  User: Möchte das, was er gebucht hat auf möglichst einfacher Weise.
+  Firma: Möchte Ausgaben kontrollieren, aber gleichzeitig notwendige Anschaffungen erlauben.   
+Precondition: 
+  User: Muss bereits registriert sein, um buchen zu können. 
+Minimal Guarantees: Zahlungseingang geprüft. 
+Success Guarantees: User kann einchecken und den Raum benutzen. 
+Trigger: User entscheidet einen Raum zu buchen. 
+Main Success Scenario: 
+  1. User gibt notwendige Zahlungsinformationen über Website an
+  2. Validierung dieser Infos durch System
+  3. Abbuchen des Betrags vom Konto des Users
+  4. Vorbereitung Check-In
+
+Use Case 2: 
+Primary Actor: User 
+Goal in Context: User erlangt durch Check-in Zugang zum gebuchten Raum. 
+Scope: Business   
+Level: User Goals  
+Stakeholders and Interests: 
+  User: Möchte Zugang zum gebuchten Raum.  
+  Receptionist: Möchte sicherstellen, dass der User sich an Hausregeln hält. 
+Precondition: 
+  User: Muss einen Raum bereits gebucht haben und im richigem Zeitraum erscheinen. 
+Minimal Guarantees: User ist vor Ort. 
+Trigger: Erforderlicher Check-in Zeitraum, zu dem der User erscheinen muss. 
+Main Success Scenario: 
+  1. User erscheint zur Location 
+  2. Receptionist empfängt ihn
+  3. Receptionist kontrolliert die Identität mit Daten im System 
+  4. Receptionist teilt die Hausregeln mit 
+  5. Receptionist gibt User den Zugang zum Raum 
+  
