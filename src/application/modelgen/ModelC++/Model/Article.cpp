@@ -7,9 +7,7 @@
 
 /**
  * Article implementation
- */
-
-
+ *
 /**
  * @param name
  * @param price
