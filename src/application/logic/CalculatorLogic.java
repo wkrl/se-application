@@ -94,11 +94,10 @@ public class CalculatorLogic implements CalculatorComp.LogicIntf {
 			case K_VAT:
 				if (dsb.substring(0).matches("[0-9.]+")) {
 					Double input = (double) Double.parseDouble(dsb.substring(0)); 
-					Double output = (double) ((double) input * VAT_RATE / 100); 
 					writeSideArea(
 						"Brutto: " + input + "\n" +
-						VAT_RATE + "% MwSt: " + output + " \n" +
-						"Netto: " + (input - output) 
+						VAT_RATE + "% MwSt: " + String.format("%.2f", input - input/1.19) + " \n" +
+						"Netto: " +  String.format("%.2f",input/1.19)
 					);
 				}
 				break;
