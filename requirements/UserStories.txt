@@ -1,4 +1,4 @@
-Akteure: USER, ADMIN, PROPERTY MANAGER, RECEPTIONIST
+Akteure: USER, ADMIN, PROPERTY MANAGER, RECEPTIONIST, Visitor
 
 US#010.01: Als USER möchte ich Räumlichkeiten mieten. 
 US#010.02: Als USER möchte ich mir ein Angebot an Räumlichkeiten online anschauen. 
